@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.site-layout .site-layout-background2 {
+  background: #fff;
   display: flex;
-  flex-direction: column;
+  padding-bottom: 1px;
+}
+.trigger {
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.login {
+  float: right;
+}
+.table tr {
+  border-bottom: 1px solid rgb(228, 226, 226);
+}
+.table tr td a {
+  padding-right: 15px;
+}
+.table tr td a:hover {
+  color: #1890ff;
+}
+.search-employee {
+  display: inline-block;
+  margin: 0 2rem 10px 0;
+}
+.site-layout button {
+  margin-bottom: 1rem;
+  display: flex;
   align-items: center;
+}
+.ant-dropdown-link {
+  display: flex;
+  align-items: center;
+}
+h6 {
+  color: #fff;
+  padding: 22px 0 0 25px;
+}
+.modal-body p {
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: unset;
+  margin-bottom: unset;
+}
+.input-login {
+  width: 430px;
+}
+.form-login {
+  padding-top: 2.5rem;
+}
+.form-login h4 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remember {
+  padding-right: 13rem;
 }
